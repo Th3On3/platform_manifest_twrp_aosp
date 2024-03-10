@@ -56,25 +56,25 @@
         <linkfile src="root.bp" dest="Android.bp" />
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
-    <project path="external/icu" name="android_external_icu" remote="TeamWin" revision="android-14" />
+    <project path="external/icu" name="android_external_icu" remote="TeamWin" revision="android-13" />
     <project path="external/libxml2" name="android_external_libxml2" remote="TeamWin"
-        revision="android-14" />
+        revision="android-12.1" />
     <project path="external/python3" name="android_external_python3" remote="TeamWin"
-        revision="android-14" />
+        revision="android-12.1" />
     <project path="external/sqlite" name="android_external_sqlite" remote="TeamWin"
-        revision="android-14" />
+        revision="android-13" />
     <project path="packages/modules/adb" name="android_packages_modules_adb" remote="TeamWin"
-        revision="android-14" />
-    <project path="system/core" name="android_system_core" remote="TeamWin" revision="android-14" />
+        revision="android-13" />
+    <project path="system/core" name="android_system_core" remote="TeamWin" revision="android-12.1" />
     <project path="system/libhidl" name="android_system_libhidl" remote="TeamWin"
-        revision="android-14" />
+        revision="android-12.1" />
     <project path="system/libhwbinder" name="android_system_libhwbinder" remote="TeamWin"
-        revision="android-14" />
+        revision="android-12.1" />
     <project path="system/security" name="android_system_security" remote="TeamWin"
-        revision="android-14" />
+        revision="android-12.1" />
     <project path="system/update_engine" name="android_system_update_engine" remote="TeamWin"
-        revision="android-14" />
-    <project path="system/vold" name="android_system_vold" remote="TeamWin" revision="android-14" />
+        revision="android-12.1" />
+    <project path="system/vold" name="android_system_vold" remote="TeamWin" revision="android-13" />
 
     <!-- Use TeamWin custom vendor repo for build system -->
     <project path="vendor/twrp" name="android_vendor_twrp" remote="TeamWin" revision="android-14" />
@@ -85,7 +85,7 @@
 
     <!-- Include external Magisk repo for repack binaries -->
     <project path="external/magisk-prebuilt" name="external_magisk-prebuilt" remote="TeamWin"
-        revision="android-14" />
+        revision="android-12.1" />
 
     <!-- Include external/bash for bash support -->
     <project path="external/bash" name="android_external_bash" remote="LineageOS"
@@ -113,9 +113,9 @@
 
     <!-- Common qcom repos -->
     <project name="android_device_qcom_common" path="device/qcom/common" remote="TeamWin"
-        revision="android-14" />
+        revision="android-12.1" />
     <project name="android_device_qcom_twrp-common" path="device/qcom/twrp-common" remote="TeamWin"
-        revision="android-14" />
+        revision="android-12.1" />
     <project name="android_hardware_qcom_bootctrl" path="hardware/qcom-caf/bootctrl"
         remote="LineageOS" revision="lineage-21.0-caf" />
     <project name="android_vendor_qcom_opensource_display-commonsys-intf"
@@ -129,13 +129,13 @@
     <!-- GCC 4.9 (for inline kernel builds) -->
     <project name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9"
         path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm"
-        clone-depth="1" remote="LineageOS" revision="lineage-21.0" />
+        clone-depth="1" remote="LineageOS" revision="lineage-19.1" />
     <project name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9"
         path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm"
-        clone-depth="1" remote="LineageOS" revision="lineage-21.0" />
+        clone-depth="1" remote="LineageOS" revision="lineage-19.1" />
     <project name="android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9"
         path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" groups="pdk,linux,x86"
-        clone-depth="1" remote="LineageOS" revision="lineage-21.0" />
+        clone-depth="1" remote="LineageOS" revision="lineage-19.1" />
 
     <!-- LAST: Remove unused projects for minimal manifest -->
     <include name="remove-minimal.xml" />
