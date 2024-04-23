@@ -825,7 +825,9 @@
     <remove-project name="platform/tools/apifinder"/>
     <remove-project name="platform/tools/apksig"/>
     <remove-project name="platform/tools/apkzlib"/>
+    <!--
     <remove-project name="platform/tools/asuite"/>
+    -->
     <remove-project name="platform/tools/base"/>
     <remove-project name="platform/tools/build"/>
     <remove-project name="platform/tools/carrier_settings"/>
